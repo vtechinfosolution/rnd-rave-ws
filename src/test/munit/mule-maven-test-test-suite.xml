@@ -10,6 +10,6 @@ http://www.mulesoft.org/schema/mule/mock http://www.mulesoft.org/schema/mule/moc
     </spring:beans>
     <munit:test name="mule-maven-test-test-suite-mule-maven-testFlowTest" description="Test">
         <flow-ref name="mule-maven-testFlow" doc:name="Flow-ref to mule-maven-testFlow"/>
-        <munit:assert-on-equals expectedValue="#['Hello Mule Maven Test Vikash V15']" actualValue="#[payload]" doc:name="Assert Equals"/>
+        <munit:assert-on-equals expectedValue="#['Hello Mule Maven Test Vikash V16']" actualValue="#[payload]" doc:name="Assert Equals"/>
     </munit:test>
 </mule>
